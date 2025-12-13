@@ -1,0 +1,42 @@
+Nombre: Juan Pérez
+Perfil Profesional: Ingeniero en Software Senior con sólida experiencia en arquitectura de backend, microservicios y sistemas distribuidos de alta disponibilidad. Especializado en el sector Fintech, con un fuerte dominio de Python, Java y tecnologías de nube.
+
+Formación Académica:
+- Ingeniero en Informática
+  - Instituto Tecnológico de Buenos Aires (ITBA)
+- Maestría en Arquitectura de Software (En curso)
+  - Universidad Politécnica de Madrid (Online)
+
+Experiencia Laboral:
+- Senior Backend Engineer | Fintech Global (2019 - Presente)
+  - Arquitectura y desarrollo del core bancario utilizando microservicios en Python (FastAPI) y Java (Spring Boot).
+  - Optimización de latencia en transacciones críticas, logrando tiempos de respuesta sub-50ms.
+  - Implementación de pipelines de CI/CD con Jenkins y GitHub Actions.
+  - Gestión de bases de datos PostgreSQL de alto volumen y caches Redis.
+
+- Java Developer | Banco Seguro (2015 - 2019)
+  - Desarrollo de APIs RESTful para la plataforma de Home Banking.
+  - Migración de sistemas legados monolíticos a arquitectura orientada a servicios.
+  - Integración con pasarelas de pago y servicios de terceros.
+
+Habilidades Técnicas:
+- Lenguajes: Python, Java, Go, SQL.
+- Frameworks: Django, FastAPI, Spring Boot, Flask.
+- Contenedores y Orquestación: Docker, Kubernetes (K8s), Helm.
+- Nube: AWS (EC2, RDS, Lambda, S3, EKS).
+- Bases de Datos: PostgreSQL, MongoDB, Redis, Cassandra.
+- Herramientas: Git, Jira, Grafana, Prometheus, ELK Stack.
+
+Proyectos Destacados:
+- "Motor de Detección de Fraude": Desarrollo de un servicio de ingesta de datos en tiempo real usando Apache Kafka para analizar patrones de fraude en transacciones.
+- "Plataforma de Pagos QR": Lideró el equipo de backend en el lanzamiento de la solución de pagos QR, manejando picos de 1000 transacciones por segundo.
+
+Certificaciones:
+- AWS Certified Solutions Architect - Associate
+- Certified Kubernetes Administrator (CKA)
+
+---
+Idiomas:
+- Español (Nativo)
+- Inglés (Avanzado - C1)
+- Portugués (Básico)

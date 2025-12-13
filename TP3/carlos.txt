@@ -1,0 +1,41 @@
+Nombre: Carlos Gómez
+Perfil Profesional: Técnico Electrónico y Especialista en IoT (Internet of Things) con amplia experiencia en automatización industrial y desarrollo de sistemas embebidos. Experto en la integración de hardware y software para soluciones de monitoreo y control en tiempo real.
+
+Formación Académica:
+- Técnico Superior en Electrónica
+  - Escuela Técnica Raggio
+- Diplomatura en Internet de las Cosas
+  - Universidad Tecnológica Nacional (UTN)
+
+Experiencia Laboral:
+- Ingeniero de Campo IoT | Industria 4.0 S.A. (2020 - Presente)
+  - Diseño e implementación de redes de sensores para monitoreo preventivo de maquinaria industrial.
+  - Programación de microcontroladores ESP32 y STM32 para recolección de telemetría.
+  - Integración de protocolos industriales (Modbus, OPC UA) con plataformas nube a través de MQTT.
+  - Desarrollo de dashboards de visualización en Node-RED y Grafana.
+
+- Técnico de Automatización | Fabril Auto (2016 - 2020)
+  - Programación de PLCs (Siemens, Allen-Bradley) para líneas de montaje automotriz.
+  - Mantenimiento correctivo y preventivo de robots industriales y sistemas SCADA.
+  - Diseño de circuitos impresos (PCB) para prototipos de control.
+
+Habilidades Técnicas:
+- Hardware: Arduino, Raspberry Pi, ESP32, PLCs, FPGAs.
+- Lenguajes de Programación: C/C++ (Embebido), Python (Scripting), JavaScript (Node.js).
+- Protocolos de Comunicación: MQTT, HTTP/REST, LoRaWAN, Modbus, I2C, SPI, UART.
+- Electrónica: Diseño de PCBs (KiCad, Altium), Soldadura SMD, Instrumentación (Osciloscopio, Analizador Lógico).
+- IoT Platforms: AWS IoT Core, ThingsBoard, Blynk.
+
+Proyectos Destacados:
+- "Sistema de Riego Inteligente": Desarrollo de un sistema autónomo basado en LoRaWAN para optimizar el consumo de agua en cultivos extensivos, reduciendo el uso en un 30%.
+- "Monitoreo de Vibraciones Industrial": Implementación de sensores de vibración IoT para predecir fallas en motores eléctricos críticos, evitando paradas de planta no planificadas.
+
+Habilidades Blandas:
+- Pensamiento lógico y sistemático.
+- Adaptabilidad a nuevas tecnologías.
+- Trabajo en entornos industriales exigentes.
+
+---
+Idiomas:
+- Español (Nativo)
+- Inglés (Técnico - Lectura de manuales y datasheets)

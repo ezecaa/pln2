@@ -1,0 +1,38 @@
+Nombre: Ezequiel Caamano
+Perfil Profesional: Estudiante avanzado de ingeniería y especialista en Inteligencia Artificial con enfoque en Procesamiento de Lenguaje Natural (NLP) y Sistemas RAG. Apasionado por la implementación de soluciones de IA generativa y la optimización de flujos de trabajo de Machine Learning.
+
+Formación Académica:
+- Ingeniería en Sistemas de Información (En curso)
+  - Universidad Tecnológica Nacional (UTN)
+  - Promedio destacado en asignaturas de programación y algoritmos.
+- Especialización en Inteligencia Artificial (CEIA)
+  - Facultad de Ingeniería de la UBA (FIUBA)
+  - Foco en Deep Learning, Visión por Computadora y NLP.
+
+Experiencia Profesional y Académica:
+- Desarrollador de Chatbots RAG (Proyecto Académico)
+  - Diseño e implementación de sistemas de preguntas y respuestas utilizando LangChain y Pinecone.
+  - Integración de modelos LLM Open Source (FLAN-T5, Llama 2) para procesamiento local.
+  - Optimización de estrategias de chunking y recuperación de vectores.
+  
+- Investigador en NLP y Visión por Computadora
+  - Desarrollo de modelos de clasificación de texto y análisis de sentimiento.
+  - Implementación de redes neuronales convolucionales (CNN) para reconocimiento de imágenes.
+  - Experimentación con técnicas de Fine-Tuning en modelos Transformers.
+
+Habilidades Técnicas (Hard Skills):
+- Lenguajes de Programación: Python (Avanzado), SQL, JavaScript (Básico).
+- Librerías de IA/ML: TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy.
+- Frameworks de NLP/LLM: LangChain, HuggingFace Transformers, Sentence-Transformers.
+- Bases de Datos Vectoriales: Pinecone, ChromaDB, FAISS.
+- Herramientas de Desarrollo: Docker, Git, Streamlit, Jupyter Notebooks.
+
+Habilidades Blandas (Soft Skills):
+- Resolución de problemas complejos.
+- Capacidad de investigación autodidacta.
+- Trabajo en equipo y metodologías ágiles.
+- Comunicación técnica efectiva.
+
+Idiomas:
+- Español (Nativo)
+- Inglés (Intermedio/Avanzado - Lectura técnica fluida)

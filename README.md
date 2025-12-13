@@ -1,49 +1,68 @@
-# pln2
-Repositorio Trabajos Prácticos de la materia Procesamiento de Lenguaje Natural II del Curso de Especialización en Inteligencia Artificial - FIUBA
+# Procesamiento de Lenguaje Natural II (PLN2)
 
+Repositorio de Trabajos Prácticos para la materia **Procesamiento de Lenguaje Natural II** del **Curso de Especialización en Inteligencia Artificial de la Facultad de Ingeniería de la UBA (FIUBA)**.
 
-# 📚 Proyectos de Procesamiento de Lenguaje Natural (PLN)
-
-Este repositorio contiene los trabajos prácticos desarrollados para la asignatura de Procesamiento de Lenguaje Natural. Cada carpeta corresponde a un trabajo específico e incluye el código, los datos y los modelos generados.
+Este repositorio contiene la implementacion de sistemas avanzados de NLP utilizando tecnologías como **LangChain**, **Pinecone**, **HuggingFace Transformers** y **Streamlit**.
 
 ---
 
 ## 📁 Estructura del Repositorio
 
-El repositorio se divide en las siguientes carpetas, una por cada trabajo práctico:
+### 1. [TP1_TinyGPT_MoE](TP1_TinyGPT_MoE/)
+* **Tema:** Grandes Modelos de Lenguaje (LLMs) y Mixture of Experts (MoE).
+* **Descripción:** Implementación de una arquitectura GPT reducida (TinyGPT) y exploración de la técnica Mixture of Experts para mejorar la eficiencia del modelo.
 
-### 1. [TP1_Clasificacion_Texto](TP1_Clasificacion_Texto/README.md)
-* **Tema:** Clasificación de opiniones (Sentiment Analysis).
-* **Herramientas/Modelos:** NLTK, Scikit-learn, Vectorización TF-IDF.
-* **Contenido:** Notebooks de análisis exploratorio, preprocesamiento, entrenamiento y evaluación de modelos de clasificación.
+### 2. [TP2_RAG_Chatbot](TP2/)
+* **Tema:** Sistema RAG (Retrieval-Augmented Generation) Chatbot.
+* **Descripción:** Chatbot conversacional capaz de responder preguntas sobre un documento específico (CV) utilizando una base de datos vectorial.
+* **Tecnologías:** Pinecone, LangChain, FLAN-T5 (Local), Streamlit.
+* **Funcionalidades Clave:**
+    * Embeddings multilingües.
+    * Persistencia de vectores en Pinecone.
+    * Chatbot interactivo con memoria de contexto simple.
+    * Ejecución 100% local con modelos optimizados.
+* **Video de Funcionamiento:**
+    > [LINK_VIDEO_TP2_PENDIENTE]
 
-### 2. [TP2_Modelos_Secuencia](TP2_Modelos_Secuencia/README.md)
-* **Tema:** Reconocimiento de Entidades Nombradas (NER).
-* **Herramientas/Modelos:** Keras/TensorFlow, Modelos RNN/LSTM/GRU.
-* **Contenido:** Implementación de modelos secuenciales para tareas de etiquetado.
-
-### 3. [TP3_Generacion_Lenguaje](TP3_Generacion_Lenguaje/README.md)
-* **Tema:** Traducción Automática/Generación de texto.
-* **Herramientas/Modelos:** Transformers, Hugging Face.
-* **Contenido:** Experimentación con modelos pre-entrenados y fine-tuning.
+### 3. [TP3_Multi_Agent_RAG](TP3/)
+* **Tema:** Sistema RAG Multi-Agente con Ruteo Inteligente.
+* **Descripción:** Evolución del TP2 hacia una arquitectura de agentes múltiples donde el sistema decide a qué "experto" (índice vectorial) consultar basándose en la pregunta del usuario.
+* **Tecnologías:** Pinecone (Múltiples índices), Sentence-Transformers, Lógica de Ruteo, FLAN-T5.
+* **Funcionalidades Clave:**
+    * **Router Semántico/Keyword:** Detecta sobre qué perfil (Mariela, Juan, Carlos, Alumno) se está preguntando.
+    * **Consultas Multi-Índice:** Capacidad de consultar y comparar información de múltiples agentes en una sola respuesta.
+    * **Arquitectura Escalable:** Fácil adición de nuevos agentes/perfiles.
+* **Video de Funcionamiento:**
+    > [LINK_VIDEO_TP3_PENDIENTE]
 
 ---
 
-## ⚙️ Cómo Ejecutar los Proyectos
+## ⚙️ Requisitos Generales
 
-1.  **Clonar el Repositorio:**
+Para ejecutar los proyectos TP2 y TP3, se requiere instalar las siguientes dependencias principales:
+
+```bash
+pip install streamlit pinecone-client langchain langchain-community langchain-huggingface langchain-pinecone sentence-transformers transformers torch
+```
+
+> **Nota:** Se recomienda utilizar un entorno virtual (venv o conda) para evitar conflictos de dependencias.
+
+## 🚀 Cómo Ejecutar
+
+1.  **Clonar el repositorio.**
+2.  **Entrar a la carpeta del TP deseado (TP2 o TP3).**
+3.  **Configurar credenciales:** Tener a mano la API Key de Pinecone.
+4.  **Ejecutar la app de Streamlit:**
+
     ```bash
-    git clone [https://github.com/tu_usuario/nombre_del_repositorio.git](https://github.com/tu_usuario/nombre_del_repositorio.git)
+    # Para TP2
+    cd TP2
+    streamlit run chatbot.py
+
+    # Para TP3
+    cd TP3
+    streamlit run chatbot-agents.py
     ```
-2.  **Instalar Dependencias:**
-    * Cada proyecto puede tener un archivo `requirements.txt` en su carpeta.
-    * Ejecuta: `pip install -r TP1_Clasificacion_Texto/requirements.txt`
-3.  **Ejecución:**
-    * Navega a la carpeta del proyecto y abre el notebook principal.
 
 ---
-
-## 📝 Notas Adicionales
-
-* **Datasets Grandes:** Los datasets que superan los 100MB no se suben directamente al repositorio (para evitar problemas de tamaño). En su lugar, se proporciona un enlace de descarga dentro del `README` de cada carpeta.
-* **Modelos Grandes:** Se recomienda usar Git LFS para manejar archivos de modelos grandes.
+**Curso de Especialización en Inteligencia Artificial - FIUBA**
