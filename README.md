@@ -22,7 +22,7 @@ Este repositorio contiene la implementacion de sistemas avanzados de NLP utiliza
     * Chatbot interactivo con memoria de contexto simple.
     * Ejecución 100% local con modelos optimizados.
 * **Video de Funcionamiento:**
-    > [LINK_VIDEO_TP2]
+    > [LINK_VIDEO_TP2] (https://github.com/ezecaa/pln2/blob/main/TP2/video/tp2.mov)
 
 ### 3. [TP3_Multi_Agent_RAG](TP3/)
 * **Tema:** Sistema RAG Multi-Agente con Ruteo Inteligente.
@@ -33,7 +33,7 @@ Este repositorio contiene la implementacion de sistemas avanzados de NLP utiliza
     * **Consultas Multi-Índice:** Capacidad de consultar y comparar información de múltiples agentes en una sola respuesta.
     * **Arquitectura Escalable:** Fácil adición de nuevos agentes/perfiles.
 * **Video de Funcionamiento:**
-    > [LINK_VIDEO_TP3]
+    > [[LINK_VIDEO_TP3]](https://github.com/ezecaa/pln2/blob/main/TP3/video/tp3.mov)
 
 ---
 
