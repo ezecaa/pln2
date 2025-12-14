@@ -159,4 +159,4 @@ El TP3 utiliza por defecto el modelo `flan-t5-large` para mejorar la capacidad d
      -> *Al no detectar nombres, consulta el índice `agent-alumno` (Ezequiel).*
 
 ---
-**Autor**: Trabajo Práctico 3 - Sistemas Multi-Agente  
+**Autor**: Ezequiel Caamaño

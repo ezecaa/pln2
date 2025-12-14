@@ -908,4 +908,4 @@ Para un sistema RAG de producción sobre documentos en español:
 
 ---
 
-**Autor**: Trabajo Práctico - Generación de Texto con RAG ¡
+**Autor**: Ezequiel Caamaño
